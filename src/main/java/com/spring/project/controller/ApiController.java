@@ -6,12 +6,11 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 
 @RestController
-@RequiredArgsConstructor //lombok을 통한 의존성 주입
+@RequiredArgsConstructor
 @RequestMapping("/api")
 public class ApiController {
 
